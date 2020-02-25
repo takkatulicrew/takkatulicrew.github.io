@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <link rel="shortcut icon" type="image/png" href="assets/favicon/favicon.png"/>
+
+        <link rel="stylesheet" href="assets/style/main.css">
+        
+        <script type="text/javascript">
+            title = "Takkatuli.xyz ";
+            position = 0;
+            function scrolltitle() {
+              document.title =
+                title.substring(position, title.length) +
+                title.substring(0, position);
+              position++;
+              if (position > title.length) position = 0;
+              titleScroll = window.setTimeout(scrolltitle, 300);
+            }
+            scrolltitle();
+          </script>
+
+    <audio id="audio" src="assets/mp3/music.mp3" loop preload="auto" autoplay="true"></audio>
+
+    </head>
+
+    <body>
+        
+        <div class="all">
+
+        <div id="pattern"></div>
+
+        <div id="instagram">
+        <a href="https://instagram.com/takkatulicrew" target="_blank" class="button">
+            <img class="button-icon" src="assets/icons/instagram.svg" alt="instagram">
+            <span class="button-text">
+              TakkatuliCrew 
+                </span>
+            </a>
+            <br><br>
+        <div id="twitch">
+            <a href="https://twitch.tv/takkatuli" target="_blank" class="button">
+            <img class="button-icon" src="assets/icons/twitch.svg" alt="twitch">
+            <span class="button-text">
+                Takkatuli 
+            </span>
+            </a>
+            <br><br>
+            <div id="youtube">
+            <a href="https://www.youtube.com/channel/UCscBIhq9GvjlkAMyO8nEOPA?sub_confirmation=1" target="_blank" class="button">
+            <img class="button-icon" src="assets/icons/youtube.svg" alt="youtube">
+            <span class="button-text">
+                Takkatuli 
+            </span>
+            </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="video">
+    <video autoplay loop muted style="width: 100vw; height: 100vh; object-fit: cover;">
+    <source src="assets/mp4/video.mp4" type="video/mp4"/>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+      window.addEventListener('load', (event) => {
+      document.querySelector('video').play();
+      });
+    </script>
+
+    </body>
+</html>
