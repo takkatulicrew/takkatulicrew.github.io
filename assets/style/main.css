@@ -4,7 +4,8 @@ body {
   font-family: 'Inter', sans-serif;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 0, 0);
+  background-image: url("assets/mobilebackground/fireplace.jpg");
+  background-color: black;
   display: flex;
   height: 100vh;
   padding: 0;
