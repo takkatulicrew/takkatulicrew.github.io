@@ -6,6 +6,9 @@ body {
   align-items: center;
   background-image: url("assets/mobilebackground/fireplace.jpg");
   background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   height: 100vh;
   padding: 0;
