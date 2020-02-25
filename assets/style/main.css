@@ -6,6 +6,7 @@ body {
   align-items: center;
   background-image: url("https://i.imgur.com/jmo9Vv9.jpg");
   background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   height: 100vh;
