@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("https://i.imgur.com/jmo9Vv9.jpg") no-repeat center center fixed;
+  background: rgb(255, 108, 23);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
